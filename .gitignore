@@ -1,0 +1,58 @@
+# Ignore compiled object files, binaries, and executables
+*.out
+*.o
+*.a
+*.so
+*.exe
+*.obj
+*.dll
+*.dSYM
+
+# Ignore CMake build directories (if using CMake)
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ignore build directories (for general make-based builds)
+build/
+Debug/
+Release/
+out/
+
+# Ignore IDE-specific files
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+
+# Eclipse
+.project
+.cproject
+.idea/
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.bak
+*~ 
+
+# Ignore OS-specific files
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore logs
+*.log
+
+# Ignore config files
+*.env
+*.local
